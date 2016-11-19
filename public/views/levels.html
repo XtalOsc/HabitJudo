@@ -1,1 +1,19 @@
 <h2 class="offset">Levels</h2>
+<div>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Points</th>
+        <th>Level</th>
+      </tr>
+    </thead>
+    <tbody>
+      <div>
+        <tr ng-repeat = "list in levels">
+          <td>{{list.points}}</td>
+          <td>{{list.level}}</td>
+        </tr>
+      </div>
+    </tbody>
+  </table>
+</div>
